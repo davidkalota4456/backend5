@@ -72,7 +72,7 @@ app.use('/adminManualyRentCar', manualCarOrderRouter)
 
 db.sequelize.sync().then(() => {
     app.listen(3001, () => {
-        console.log('Server running on port 3001');
+        console.log('Server running on port');
     });
 }).catch(error => {
     console.error('Error syncing database:', error);
